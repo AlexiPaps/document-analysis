@@ -24,3 +24,6 @@ A production-ready tech application built with TypeScript, NestJS, GraphQL, Pris
 ## Deployment
 - Backend: Deploy the `backend` folder to a cloud provider (e.g., Vercel, Heroku) by setting the root to `backend`.
 - Frontend: Deploy the `frontend` folder separately (e.g., Vercel, Netlify).
+
+## License
+This project is licensed under the MIT License (see `LICENSE`).
