@@ -7,7 +7,7 @@ async function bootstrap() {
 
   // Enable CORS
   app.enableCors({
-    origin: ['http://localhost:5173', 'https://document-analysis-eta.vercel.app/'], // Allow frontend origin
+    origin: ['http://localhost:5173', 'https://document-analysis-eta.vercel.app'], // Allow frontend origin
     methods: 'GET,POST', // Allow GraphQL methods
     allowedHeaders: 'Content-Type, Authorization', // Allow necessary headers
   });

@@ -29,6 +29,8 @@ type Query {
 }
 
 type SearchResult {
+  content: String!
   id: String!
   score: Float!
+  summary: String!
 }
