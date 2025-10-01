@@ -2,25 +2,21 @@
     "version": 2,
     "builds": [
         {
-            "src": "dist/main.js",
+            "src": "src/main.ts",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
-            "src": "/graphql",
-            "dest": "dist/main.js",
+            "src": "/(.*)",
+            "dest": "src/main.ts",
             "methods": [
                 "GET",
                 "POST",
-                "PUT"
-            ],
-            "headers": {
-                "Access-Control-Allow-Origin": "https://document-analysis-eta.vercel.app",
-                "Access-Control-Allow-Methods": "GET,POST,PUT",
-                "Access-Control-Allow-Headers": "Content-Type,Authorization",
-                "Access-Control-Max-Age": "86400"
-            }
+                "PUT",
+                "DELETE",
+                "PATCH"
+            ]
         }
     ]
 }
