@@ -9,7 +9,7 @@ async function bootstrap() {
       'http://localhost:5173',
       'https://document-analysis-eta.vercel.app',
     ],
-    methods: 'GET,POST,OPTIONS',
+    methods: 'GET,POST,PUT',
     allowedHeaders: 'Content-Type,Authorization',
     credentials: true,
     preflightContinue: false,
