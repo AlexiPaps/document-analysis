@@ -2,6 +2,9 @@
 
 A proof of concept for a legal document analysis platform that allows users to upload, search, and analyze legal documents using semantic search and AI-driven insights. Built with a modern tech stack, the platform integrates OpenAI for document analysis and Pinecone for vector-based search.
 
+## Live Demo
+- [https://document-analysis-eta.vercel.app](https://document-analysis-eta.vercel.app)
+
 ## Features
 - **Document Upload**: Upload `.txt` files, store them in Supabase (Postgres), and generate summaries using OpenAI.
 - **Semantic Search**: Search documents using Pinecone’s vector search with embeddings from OpenAI’s `text-embedding-3-small`.
